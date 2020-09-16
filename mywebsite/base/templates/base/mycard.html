@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+{% load static %}
+   <head>
+      <title>Sushrut's Card</title>
+      <link rel="stylesheet" type="text/css" href="{% static "css/mycard.css" %}">
+   </head>
+   <body>
+      <div class="card-container">
+         <div class="upper-container">
+            <div class="image-container">
+               <img src="{% static 'images/sushrutp.jpg' %}"/>
+            </div>
+         </div>
+         <div class="lower-container">
+            <div>
+               <h3>Sushrut Kumar Mishra</h3>
+               <h4>Python || Django || SQL</h4>
+            </div>
+            <div>
+               <p>A Computer Science Engineer with experience in Python, Django and Databases.
+               </p>
+            </div>
+            <div>
+               <a href="home" class="btn">View profile</a>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
