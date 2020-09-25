@@ -1,2 +1,2 @@
 # Portfolio
-The first Django-Project created as a learning process.
+Personal_portfolio website made in Django (MVT - Structure).
