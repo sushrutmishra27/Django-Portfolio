@@ -1,2 +1,2 @@
 # Portfolio
-Personal portfolio webapp made in Django.
+The first Django-Project created as a learning process.
